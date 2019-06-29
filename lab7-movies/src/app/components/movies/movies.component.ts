@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { MovieService } from '../services/movies.service';
+import { MovieService } from 'src/app/services/movies.service';
+
 
 @Component({
   selector: 'app-movies',

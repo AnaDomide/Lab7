@@ -19,7 +19,7 @@ namespace WebApiTests
 
             using (var context = new MoviesDbContext(options))
             {
-
+                //some text
                 var commentService = new CommentsService(context);
                 var movieService = new MoviesService(context);
                 var addedMovie = movieService.Create(new ExamenNet.ViewModels.MoviePostModel
